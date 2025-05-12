@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+}
+.grid-container {
+    display: grid;
+}
+.gridbox-item {
+    min-width: 250px;
+    margin: 5px;
+    border: 3px solid#333;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+.gridbox-header {
+    background-color: purple;
+}
+.gridbox-aside {
+    background-color: rgb(77, 141, 236);
+}
+.gridbox-columns {
+    display: grid;
+    background-color: green;
+    grid-template-columns: auto;
+}
+.gridbox-column {
+    background-color: red;
+}
+.gridbox-aside2 {
+    background-color: lightgray;
+}
+.gridbox-footer {
+    background-color: orange;
+}
