@@ -3,6 +3,7 @@ body {
 }
 .grid-container {
     display: grid;
+    grid-template-rows ;
 }
 .gridbox-item {
     min-width: 250px;
@@ -23,7 +24,8 @@ body {
 .gridbox-columns {
     display: grid;
     background-color: green;
-    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 500px;
 }
 .gridbox-column {
     background-color: red;
