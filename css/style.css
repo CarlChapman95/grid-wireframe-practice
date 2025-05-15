@@ -3,10 +3,12 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-rows ;
+    grid-template-rows: 100px 100px 400px 100px 100px;
+    
 }
 .gridbox-item {
-    min-width: 250px;
+    min-width: 350px;
+    height 200px;
     margin: 5px;
     border: 3px solid#333;
     border-radius: 10px;
@@ -14,6 +16,8 @@ body {
     text-align: center;
     color: white;
     align-items: center;
+    justify-self: center;
+    place-content: center;
 }
 .gridbox-header {
     background-color: purple;
@@ -25,10 +29,11 @@ body {
     display: grid;
     background-color: green;
     grid-template-rows: 1fr 1fr 1fr;
-    min-height: 500px;
+    min-height: 250px;
 }
 .gridbox-column {
     background-color: red;
+    min-height: 100px;
 }
 .gridbox-aside2 {
     background-color: lightgray;
